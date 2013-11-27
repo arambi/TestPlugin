@@ -1,13 +1,16 @@
 {
+  "name": "arambi/testplugin",
 	"type": "test",
 	"license": "MIT",
 	"authors": [
 		{
-			"name": "Arambi"
+			"name": "Cofreeweb",
+			"homepage": "http://cofreeweb.com"
 		}
 	],
 	"require": {
 		"php": ">=5.3.0",
-		"composer/installers": "*"
+		"composer/installers": "*",
+		"cofreeweb/acl": "dev-master"
 	}
 }
